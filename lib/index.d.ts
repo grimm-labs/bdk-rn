@@ -11,4 +11,5 @@ import { PartiallySignedTransaction } from './classes/PartiallySignedTransaction
 import { Transaction } from './classes/Transaction';
 import { TxBuilder } from './classes/TxBuilder';
 import { Wallet } from './classes/Wallet';
-export { Address, Blockchain, BumpFeeTxBuilder, DatabaseConfig, DerivationPath, Descriptor, DescriptorPublicKey, DescriptorSecretKey, Mnemonic, PartiallySignedTransaction, Transaction, TxBuilder, Wallet, };
+import { Script } from './classes/Script';
+export { Address, Script, Blockchain, BumpFeeTxBuilder, DatabaseConfig, DerivationPath, Descriptor, DescriptorPublicKey, DescriptorSecretKey, Mnemonic, PartiallySignedTransaction, Transaction, TxBuilder, Wallet, };
